@@ -34,12 +34,11 @@ We built an automated pipeline that ingests regulatory text, processes it using 
 3.**Launch the application:**
 ```bash
   pip install streamlit requests pandas
-
-
-Launch the application:
-
-Bash
 streamlit run app.py
+```
+
+
+
 ☁️ Databricks Deployment
 The files in the backend_databricks folder are designed to be run sequentially on a Databricks cluster to generate the underlying Medallion tables in a default or secure catalog database.
 
@@ -48,7 +47,7 @@ The files in the backend_databricks folder are designed to be run sequentially o
 
 ---
 
-### 🚀 Step 4: Push to GitHub
+###  Push to GitHub
 
 1. Go to [GitHub.com](https://github.com/) and click the **+** icon in the top right to create a **New Repository**.
 2. Name it `FinReg-AI-Advisor`. **Do not** check the boxes to add a README or .gitignore (you already made them). Click **Create repository**.
@@ -78,7 +77,7 @@ The files in the backend_databricks folder are designed to be run sequentially o
 1. Go to [GitHub.com](https://github.com/) and click the **+** icon in the top right to create a **New Repository**.
 2. Name it `FinReg-AI-Advisor`. **Do not** check the boxes to add a README or .gitignore (you already made them). Click **Create repository**.
 3. Open your computer's Terminal (or Command Prompt) and navigate to your master folder:
-   ```bash
+
    cd Desktop/FinReg-AI-Advisor
 Run these exact commands one by one to push your code:
 
