@@ -27,10 +27,10 @@ We built an automated pipeline that ingests regulatory text, processes it using 
    ```bash
    git clone [https://github.com/YOUR_USERNAME/FinReg-AI-Advisor.git](https://github.com/YOUR_USERNAME/FinReg-AI-Advisor.git)
    cd FinReg-AI-Advisor/frontend_app
-Install dependencies:
-
-Bash
+2. **Install dependencies:**
+   '''bash
 pip install -r requirements.txt
+
 Launch the application:
 
 Bash
